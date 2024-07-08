@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "biddings-genai"
+version = "0.1.0"
+description = ""
+authors = ["Ninniet5670 <marconeto3000@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = ">=3.11,<3.13"
+unstructured = {extras = ["docx", "pdf"], version = "^0.14.9"}
+ipykernel = "^6.29.5"
+langchain-community = "^0.2.6"
+instructorembedding = "^1.0.1"
+chromadb = "^0.5.3"
+streamlit = "^1.36.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
